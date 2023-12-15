@@ -1,0 +1,53 @@
+    1  docker ps
+    2  docker ps -a
+    3  docker start 8db7a17a6958
+    4  docker run -d --restart unless-stopped -p 80:80 httpd
+    5  docker ps
+    6  docker exec -it 8db7a17a6958 /bin/bash
+    7  docker exec -it 8db7a17a6958 /bin/bash
+    8  history
+    9  clear
+   10  docker run -it ubuntu
+   11  docker ps
+   12  clear
+   13  history
+   14  yum install git -y
+   15  clear
+   16  git clone https://github.com/ChethanR2829/Helloworld-latest_dockerfile_dockerimage.git
+   17  clear
+   18  ls
+   19  cd Helloworld-latest_dockerfile_dockerimage/
+   20  ls
+   21  yum install maven -y
+   22  clear
+   23  ls
+   24  mvn clean package
+   25  clear
+   26  ls
+   27  vim Dockerfile
+   28  vim Dockerfile
+   29  docker build -t myhelloworldchethan .
+   30  docker images
+   31  docker run -d -p 8000:8080 myhelloworldchethan
+   32  docker ps
+   33  docker login -u chethanramesh -p chethan@2819
+   34  docker tag myhelloworldchethan chethanramesh/myhelloworldchethan
+   35  docker images
+   36  docker push chethanramesh/myhelloworldchethan
+   37  clear
+   38  docker images
+   39  docker ps
+   40  docker run -d -p 8000:8080 chethanramesh/myhelloworldchethan
+   41  docker ps
+   42  docker ps e08f9615bf33
+   43  docker stop e08f9615bf33
+   44  docker ps
+   45  docker run -d -p 8000:8080 chethanramesh/myhelloworldchethan
+   46  docker ps
+   47  docker run -d - p 80:80 vnom1985/cakeshopvin
+   48  docker run -d -p 80:80 vnom1985/cakeshopvin
+   49  docker stop 4e7cf3f9eb2b
+   50  docker run -d -p 80:80 vnom1985/cakeshopvin
+   51  clear
+   52  docker ps
+   53  history
